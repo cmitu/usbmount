@@ -1,3 +1,8 @@
+usbmount (0.0.24+1rpi) unstable; urgency=low
+  * modify udev rules to ignore whole disc devices, process the partition devices only
+
+ -- Jools Wills <buzz@exotica.org.uk>  Fri, 15 Jan 2021 06:55:16 +0000
+
 usbmount (0.0.24) unstable; urgency=medium
 
   * added systemd service and adjusted udev rules based on https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774149#177
